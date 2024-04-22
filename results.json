@@ -1,0 +1,32 @@
+{
+  "test_preprocess": {
+    "vocab_length": 1804
+  },
+  "test_lm": {
+    "english_2_gram_length": 748,
+    "english_3_gram_length": 8239,
+    "french_3_gram_length": 8286,
+    "spanish_3_gram_length": 8469
+  },
+  "test_eval": {
+    "en_en": 10.00182719033011,
+    "en_fr": 27.829825990212314,
+    "en_tl": 30.724299647741184,
+    "en_nl": 30.46604515455116
+  },
+  "test_match": {
+    "en_en_3": 10.00182719033011,
+    "en_tl_3": 30.724299647741184,
+    "en_nl_3": 30.46604515455116
+  },
+  "test_generate": {
+    "english_1_gram": "It  t  oa  n i r  t  ",
+    "english_2_gram": "I amo/t t it @T @me tps ",
+    "english_3_gram": "I aming the the wit the ",
+    "english_4_gram": "I Love you can https://t.c",
+    "spanish_2_gram": "Soyora co a @manta @co ",
+    "spanish_3_gram": "Soy me en es de la es p",
+    "french_2_gram": "Je suis: ps de de @Pan @Con",
+    "french_3_gram": "Je suis pas de le de pas de"
+  }
+}
